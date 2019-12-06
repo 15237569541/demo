@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view.
     NSLog(@"22222_1");
 }
-
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    NSLog(@"33333_1");
+}
 
 @end
